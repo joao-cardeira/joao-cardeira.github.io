@@ -2,33 +2,40 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: >
+  PhD student at <a href="https://nova-lincs.di.fct.unl.pt/">NOVA LINCS</a>,
+  NOVA School of Science and Technology. Core team of
+  <a href="https://amaliallm.pt/">AMALIA</a>, Portugal's open LLM.
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>NOVA School of Science and Technology</p>
+    <p>Lisbon, Portugal</p>
+    <p>jaca.pereira@campus.fct.unl.pt</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: true
+  limit: 5
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a PhD student at [NOVA LINCS](https://nova-lincs.di.fct.unl.pt/), NOVA School of Science and Technology, working on **large vision-language models**, **video and anomaly understanding**, and **multilingual LLMs**.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research moves video anomaly analysis beyond detection, toward models that can *explain* what is anomalous and why ([FineVAU](https://dl.acm.org/doi/10.1609/aaai.v40i10.37790), AAAI 2026), and explores how LVLMs can use their own self-reflection to handle long videos efficiently ([Self-ReS](https://ieeexplore.ieee.org/document/11209055), ICME 2025).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am also part of the core development team of **[AMALIA](https://huggingface.co/amalia-llm)**, the fully open large language model built for the Portuguese government. I contributed to **[AMALIA-VL](https://arxiv.org/abs/2606.19100)** — the first open-source vision-language model built natively for European Portuguese — working on the training pipeline, pt-PT multimodal data mix, and evaluation suite, and I am first author of **[PorTEXTO](https://arxiv.org/abs/2606.19096)**, a European Portuguese benchmark for visual text extraction.
+
+More broadly, my research interests are centered on **video and anomaly understanding** — building systems that can watch, interpret, and reason about what happens in video, especially when things go wrong. I'm drawn to problems where vision and language meet: grounding explanations in visual evidence, handling long temporal contexts, and evaluating models on nuanced, real-world scenarios.
+
+I care about open, sovereign AI: models, data, and benchmarks that anyone can inspect and build on, especially for languages and variants that mainstream models underserve.
+
+Feel free to reach out — I am always happy to talk about multimodal models, pt-PT NLP, or video understanding.

@@ -1,0 +1,187 @@
+cv:
+  name: João Cardeira
+  label: AI Researcher & PhD Student
+  email: jaca.pereira@campus.fct.unl.pt
+  location: Lisbon, Portugal
+  image: ""
+  summary: PhD student at NOVA LINCS working on large vision-language models, video and anomaly understanding, and multilingual LLMs. Core team of AMALIA, Portugal's open LLM.
+
+  social_networks:
+    - network: GitHub
+      username: joao-cardeira
+    - network: LinkedIn
+      username: joao-cardeira
+    - network: Google Scholar
+      username: 37YRVtAAAAAJ
+
+  sections:
+    Education:
+      - institution: NOVA School of Science and Technology, Universidade NOVA de Lisboa
+        location: Lisbon, Portugal
+        url: https://www.fct.unl.pt/
+        area: Generative AI and Computer Science
+        studyType: PhD
+        start_date: 2024
+        end_date: present
+        highlights:
+          - "Research: large vision-language models, video anomaly understanding, multilingual LLMs"
+          - "Lab: NOVA LINCS"
+
+      - institution: NOVA School of Science and Technology, Universidade NOVA de Lisboa
+        location: Lisbon, Portugal
+        url: https://www.fct.unl.pt/
+        area: Computer Science and Engineering
+        studyType: Integrated Masters (BSc + MSc)
+        start_date: 2017
+        end_date: 2023
+        highlights:
+          - "Thesis: Real-Time Human Action Localization in the Wild"
+
+      - institution: Technische Universität Dresden
+        location: Dresden, Germany
+        area: Computer Science and Engineering
+        studyType: Exchange Program
+        start_date: 2021-04
+        end_date: 2021-08
+
+    Experience:
+      - company: AMALIA LLM Project
+        position: AI Researcher
+        location: Portugal
+        url: https://amaliallm.pt/
+        start_date: 2024-11
+        end_date: present
+        highlights:
+          - "Training and evaluation of the AMALIA-VL model"
+          - "Lead author of PorTEXTO, the first benchmark for modern pt-PT OCR evaluation"
+          - "Contributed to training pipeline, pt-PT multimodal data mix, and evaluation suite (amalia-vl-eval)"
+
+      - company: Universidade da Beira Interior
+        position: Teacher — Data Science and Machine Learning
+        location: Covilhã, Portugal
+        start_date: 2025-03
+        end_date: 2025-04
+
+      - company: Departamento de Informática, NOVA School of Science and Technology
+        position: Student Internship
+        location: Lisbon, Portugal
+        start_date: 2020-03
+        end_date: 2020-08
+        highlights:
+          - "Development of a CRM strategy for DI@FCT"
+
+    Awards:
+      - title: Best Poster Award
+        date: 2024-10-25
+        awarder: RECPAD 2024
+        url: https://aprp.pt/wp-content/uploads/2025/01/RECPAD24_Proceedings.pdf
+
+    Publications:
+      - title: "FineVAU: A Novel Human-Aligned Benchmark for Fine-Grained Video Anomaly Understanding"
+        authors:
+          - João Cardeira
+          - Vasco Lopes
+          - João C. Neves
+          - David Semedo
+        publisher: "Proceedings of the AAAI Conference on Artificial Intelligence"
+        releaseDate: 2026
+        url: https://dl.acm.org/doi/10.1609/aaai.v40i10.37790
+
+      - title: "AMALIA-VL: A Native European Portuguese Open-Source Vision and Language Model"
+        authors:
+          - Diogo Glória-Silva
+          - João Cardeira
+          - Manuel Letras da Luz
+          - Afonso Simplício
+          - Gonçalo Vinagre
+          - Diogo Tavares
+          - Rafael Ferreira
+          - Inês Calvo
+          - Inês Vieira
+          - David Semedo
+          - João Magalhães
+        publisher: "arXiv preprint arXiv:2606.19100"
+        releaseDate: 2026
+        url: https://arxiv.org/abs/2606.19100
+
+      - title: "Self-ReS: Self-Reflection in Large Vision-Language Models for Long Video Understanding"
+        authors:
+          - João Cardeira
+          - Vasco Lopes
+          - David Semedo
+          - João C. Neves
+        publisher: "IEEE International Conference on Multimedia and Expo (ICME)"
+        releaseDate: 2025
+        url: https://ieeexplore.ieee.org/document/11209055
+
+      - title: "PorTEXTO: A European Portuguese Benchmark for Visual Text Extraction"
+        authors:
+          - João Cardeira
+          - Diogo Glória-Silva
+          - Manuel Letras da Luz
+          - Rafael Ferreira
+          - Diogo Tavares
+          - David Semedo
+          - João Magalhães
+        publisher: "arXiv preprint arXiv:2606.19096"
+        releaseDate: 2026
+        url: https://arxiv.org/abs/2606.19096
+
+      - title: "Chain-of-Anomaly Thoughts with Large Vision-Language Models"
+        authors:
+          - Pedro Domingos
+          - João Cardeira
+          - Vasco Lopes
+          - João C. Neves
+          - David Semedo
+        publisher: "arXiv preprint arXiv:2512.20417"
+        releaseDate: 2025
+        url: https://arxiv.org/abs/2512.20417
+
+      - title: "Towards Event-Driven Evaluation of Surveillance Video Understanding Using Natural Language"
+        authors:
+          - João Cardeira
+          - Vasco Lopes
+          - João C. Neves
+          - David Semedo
+        publisher: "Iberian Conference on Pattern Recognition and Image Analysis (IbPRIA)"
+        releaseDate: 2025
+        url: https://link.springer.com/chapter/10.1007/978-3-031-99568-2_4
+
+      - title: "Zero-Shot Action Recognition in Surveillance Videos"
+        authors:
+          - João Cardeira
+          - Vasco Lopes
+          - David Semedo
+          - João C. Neves
+        publisher: "arXiv preprint arXiv:2410.21113"
+        releaseDate: 2024
+        url: https://arxiv.org/abs/2410.21113
+
+    Skills:
+      - name: Machine Learning & Deep Learning
+        icon: fa-solid fa-brain
+        keywords: "PyTorch, Transformers, LLMs, Vision-Language Models, Video Understanding"
+
+      - name: Data Science
+        icon: fa-solid fa-chart-line
+        keywords: "Pandas, Matplotlib, Data Analysis"
+
+      - name: Programming
+        icon: fa-solid fa-code
+        keywords: "Python"
+
+    Languages:
+      - name: Portuguese
+        summary: "Native"
+
+      - name: English
+        summary: "Full Professional"
+
+      - name: Spanish
+        summary: "Elementary"
+
+    Interests:
+      - name: Research
+        icon: fa-solid fa-flask
+        keywords: "Video Anomaly Understanding, Large Vision-Language Models, Multilingual LLMs, Open-Source AI"
